@@ -1,0 +1,46 @@
+Question2
+Step 1
+------
+Split the String where there are "," 
+
+Step 2
+------
+Now I will create a HashMap to store the key-value pairs Key will be the cell and the value will be the value contained in the cell
+
+Step 3
+------
+Now I will take each String from the split array then I again split the string with ':';
+
+Step 4
+------
+The first value will be my cell and the second string will be my mathematical value or expression which will be in map in the hash map
+
+Step 5
+------
+Now will get all entries in the hash map in a set and Iterate over the map I will again go further and break the problem I will separate the 
+entries which the mathematical expression and value which have an integer value will be mapped in another hash map string a key and integer key 
+and remove it from the current hash map 
+
+Step 6
+------
+Entries that have mathematical expressions will be solved so I will go to one entry and solve that if I get a cell that is yet to be calculated 
+then I will calculate that with DFS if I get a cell that is empty then that will be an exception cause there is no value
+
+step 7 
+------
+As the value will be caculate I will remove it from the hash map and add it another answer hash map 
+
+Step 8
+------
+If all is gone well then all the key-value pairs will be stored in CSV file
+
+
+Questin 1 part -3
+Encryption:-  Encryption will convert your information into code. This will secure Senstive Data from wrong hands.
+
+API Gateway:- Gateway to heaven.  An API Gateway will help you secure, control, and monitor your traffic.
+
+loggin:- Continually monitoring your API and what it’s up to can pay off. Be vigilant like that overprotective parent who wants to know everything about the people around their son or daughter.
+
+Authentication:-  In the digital world, authentication is the process of verifying a user’s identity.
+
